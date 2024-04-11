@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(221, 248, 255);
+}
+
+.page1{
+    height: 730px;
+    
+}
+
+.page1 .pi{
+    display: flex;
+    justify-content: right;
+    margin: 50px 140px 0px 0px;
+}
+
+
+.page1 .header h2{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+
+.page1 .header ul{
+    
+    display: flex;
+    justify-content: right;
+    list-style-type:none;
+    font-size: 30px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    color: rgb(78, 75, 75);
+    box-shadow: 5px 5px 8px black;
+    font-weight:bold;
+    padding: 5px;
+}
+
+
+.page1 .header ul li{
+    margin-right: 20px;
+    padding: 4px 25px 4px 25px;
+    
+}
+
+
+.page1 .header ul li:hover{
+    text-decoration:under;
+    outline: 3px solid rgb(141, 134, 134);
+    box-shadow: 4px 4px 6px black;
+}
+
+
+.page1 .para{
+    width:auto;
+    height:180px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.page1 .para h2{
+    font-size: 60px;
+    
+}
+
+
+.page1 .para p{
+    font-size: 23px;
+    width: 430px;
+    text-align: justify;
+    color: rgb(85, 83, 83);
+
+}
+
+
+.page1 .img1{
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+    
+}
+
+
+
+
+.page1 .img1 .i1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    margin: 15px 15px 15px 15px;
+    background-image: url("https://www.jeduka.com/storage/newsletter/1600493538_Indian_Students_Studying_Abroad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius:50%;
+    transition-duration: 0.5s;
+}
+
+.img1 .i1:hover{
+    width: 230px;
+    height: 230px;
+}
+
+.page1 .img1 .i2{
+    width:200px;
+    height: 200px;
+    border: 3px solid yellow;
+    margin: 15px 15px 15px 15px;
+    background-image: url("https://learnblog.s3.ap-south-1.amazonaws.com/learn/wp-content/uploads/2023/08/05132005/indian-students-abroad.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius:50%;
+    transition-duration: 0.5s;
+}
+
+.page1 .img1 .i2:hover{
+    width: 230px;
+    height: 230px;
+}
+
+
+.page1 .img1 .i3{
+    width: 200px;
+    height: 200px;
+    border: 3px solid blue;
+    margin: 15px 15px 15px 0px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL-WO6FwquavEzQtpFJxvkXszybebaVIhw2jVgwwtBI6gttxC1YROi7deE1lr-tU7U0zE&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius:50%;
+    transition-duration: 0.5s;
+}
+
+.page1 .img1 .i3:hover{
+    width: 230px;
+    height: 230px;
+}
+
+
+.page1 .img1 .i4{
+    width: 200px;
+    height: 200px;
+    border: 3px solid green;
+    margin: 15px 15px 15px 0px;
+    background-image: url("https://www.arabianbusiness.com/cloud/2023/09/14/Indian-student-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius:50%;
+    transition-duration: 0.5s;
+}
+
+
+.page1 .img1 .i4:hover{
+    width: 230px;
+    height: 230px;
+}
+
+
+
+
+
+/*this css is for 2nd page*/
+
+
+
+
+
+
+
+
+
+
+
+.page2{
+    background-color:rgb(247, 237, 244);
+    height: 730px;
+    
+}
+
+
+.page2 h1{
+    width: auto;
+font-size: 50px;
+border: 2px solid black;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+
+.page2 .edu{
+    width: 1208px;
+    height: 506px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    
+    
+}
+
+
+.page2 .edu1{
+    width: 350px;
+    height:500px;
+    border: 3px solid grey;
+    border-radius: 30px;
+    background-color: rgb(221, 248, 255);
+    background-image: url("https://w0.peakpx.com/wallpaper/671/752/HD-wallpaper-aimy-mallu-actress-model.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.page2 .edu1 .edu11{
+    width: 350px;
+    height: 490px;
+    background-color: black;
+    opacity: 0.0;
+    border-radius: 28px;
+    transition-duration:0.5s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+
+    
+}
+
+
+.page2 .edu1 .edu11 p{
+    height:fit-content ;
+    border: 2px solid black;
+    text-align: justify;
+    padding:180px 10px 0px 0px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+
+.page2 .edu1 .edu11:hover{
+   opacity: 0.7;
+}
+
+
+
+.page2 .edu2{
+    width: 350px;
+    height:500px;
+    border: 3px solid grey;
+    margin: 0px 70px 0px 70px;
+    border-radius: 30px;
+    background-image: url("https://e0.pxfuel.com/wallpapers/659/496/desktop-wallpaper-oviya-page-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.page2 .edu2 .edu22{
+    width: 350px;
+    height: 490px;
+    background-color: black;
+    opacity: 0.0;
+    border-radius: 28px;
+    transition-duration:0.5s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+
+    
+}
+
+
+.page2 .edu2 .edu22 p{
+    text-align: justify;
+    padding:180px 10px 0px 10px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+
+.page2 .edu2 .edu22:hover{
+   opacity: 0.7;
+}
+
+.page2 .edu3{
+    width: 350px;
+    height:500px;
+    border: 3px solid grey;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/123/821/desktop-wallpaper-nivetha-thomas-mobile-nivetha-thomas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.page2 .edu3 .edu33{
+    width: 350px;
+    height: 490px;
+    background-color: black;
+    opacity: 0.0;
+    border-radius: 28px;
+    transition-duration:0.5s;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.page2 .edu3 .edu33 p{
+    text-align: justify;
+    padding:180px 10px 0px 10px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+
+.page2 .edu3 .edu33:hover{
+   opacity: 0.7;
+}
+
+
+
+
+
+/*this css is for 3rd page*/
+
+
+
+
+.page3{
+    height:600px;
+    background-color:rgb(243, 246, 217);
+}
+
+
+.page3 h1{
+    text-align: center;
+    padding-top:10px;
+    font-size: 50px;
+}
+
+.page3 .form{
+
+    height: 400px;
+    width: 650px;
+    background-image: url("https://burst.shopifycdn.com/photos/person-holds-a-book-over-a-stack-and-turns-the-page.jpg?width=1000&format=pjpg&exif=0&iptc=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    border-radius: 30px;
+}
+
+
+.page3 .form .formbox{
+    width: 530px;
+    height: 340px;
+    background-color: black;
+    opacity: 0.7;
+    font-size: 25px;
+    color: white;
+    padding: 30px 60px 30px 60px;
+    border-radius: 30px;
+    text-align: justify;
+    line-height:20px ;
+
+}
+
+
+.page3 .form .formbox input{
+    height: 35px;
+    border-radius: 6px;
+    width: 530px;
+    
+}
+
+
+.page3 .form .formbox #check{
+    width: 50px;
+    height: 20px;
+}
+
+
+.page3 .form .formbox #dob{
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    opacity: 100%;
+    padding: 2px;
+}
+
+
+.page3 .form .formbox #range{
+    width: 250px;
+    height: 10px;
+}
+
+
+
+
+/*this line of code is for 4th page*/
+
+
+
+
+
+
+.page4{
+    height: 400px;
+    background-color: grey;
+    
+}
+
+
+
+.page4 .menu{
+    width: 1300px;
+    height: 180px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+.page4 .menu a{
+   text-decoration: none;
+   color: white;
+}
+
+
+.page4 .menu a:hover{
+    text-decoration:underline;
+    color: blue;
+ }
+
+
+.page4 .menu ul{
+    list-style-type: none;
+}
+
+
+.page4 .menu .menu2{
+    margin: 0px 200px 0px 200px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0px 200px 0px 200px;
+}
+
+
+.page4 .social{
+   height: 70px;
+   display: flex;
+   border-top: 3px solid white;
+   position: relative;
+   top: 100px;
+}
+
+
+.page4 .copyright{
+    height: 40px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    background-color: rgb(74, 70, 70);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+ }
+
+
+
+
+
+ /* social media page coding*/
+
+
+
+
+ .social ul{
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+    
+ }
+ 
+ 
+ 
+ .social ul li{
+   margin: 0px 50px 0px 50px;
+    
+ }
+
+
+  
+ .social ul .instagram{
+    background-image:url("https://cdn.icon-icons.com/icons2/2997/PNG/512/instagram_logo_icon_187632.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    
+ }
+
+
+ .social ul .facebook{
+    background-image: url("https://cdn-icons-png.flaticon.com/256/20/20673.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  
+ }
+
+
+ .social ul .linkedin{
+    background-image:url("https://cdn-icons-png.flaticon.com/512/61/61109.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    
+ }
+
+
+
+ .social ul .whatsapp{
+    background-image:url("https://i.pinimg.com/originals/8d/87/83/8d8783bd274aa0c4bf3a92e2cb11d484.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    
+ }
+
+
+
+ .social ul .github{
+    background-image:url("https://cdn-icons-png.flaticon.com/512/25/25231.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    
+ }
+
+
+
+ .social ul .telegram{
+    background-image:url("https://www.svgrepo.com/show/394493/telegram.svg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+ }
+
+
+
+ .social ul .twitter{
+    background-image:url("https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-vector-download_691560-10796.jpg?w=360") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+ }
